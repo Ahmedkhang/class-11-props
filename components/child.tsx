@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
-export default function Child(props) {
+
+export default function Child(props:any) {
     return(
         <div>
             <p>Name : {props.name}</p>
